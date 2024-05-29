@@ -19,7 +19,7 @@ def search_title(title: str, limit: int, page: int) -> list[dict]:
                     limit >= 1
     :param page: The page of results from
                     [(page - 1) * limit] to [page * limit]. page >= 1
-    :return: dict - the data from the json-encoded content of the response.
+    :return: The data from the json-encoded content of the response.
                     MangaDex represents this data as a list of dictionary
                     objects.
     """
